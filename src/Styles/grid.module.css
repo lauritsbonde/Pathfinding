@@ -1,0 +1,40 @@
+.grid {
+    width: 80vw;
+    min-height: 80vh;
+    margin: auto;
+}
+
+.grid table {
+    width: 100%;
+    border-collapse: collapse;
+    min-height: 65vh;
+}
+
+.row {
+    width: 100%;
+    position: relative;
+}
+
+.cell {
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+}
+
+.options {
+    margin: 1% 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 30%;
+}
+
+.options ul,
+.options button {
+    width: 30%;
+}
+
+.combination {
+    margin: 0 2%;
+}

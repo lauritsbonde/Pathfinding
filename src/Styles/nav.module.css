@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    width: 100vw;
+}
+
+.nav ul {
+    min-height: 10vh;
+    padding: 0% 2%;
+    list-style-type: none;
+    font-weight: 500;
+    color: white;
+}
+
+.nav ul h4 {
+    font-size: large;
+    font-weight: 750;
+}
+
+.list li {
+    margin: 0 2%;
+}

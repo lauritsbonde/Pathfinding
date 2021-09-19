@@ -1,0 +1,25 @@
+.graphContainer {
+    text-align: center;
+}
+
+canvas {
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 1%;
+}
+
+.options {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.clickChanges,
+.graphType,
+.algorithms {
+    flex: 1;
+}
+
+.clickChanges input {
+    margin: 0 2%;
+}

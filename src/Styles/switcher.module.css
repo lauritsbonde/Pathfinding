@@ -1,0 +1,44 @@
+.selector {
+    width: 100vw;
+    margin: 1vh 0;
+}
+
+.selector ul {
+    width: 100vw;
+    margin: auto;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    background-color: blue;
+    color: white;
+    padding: 0.5%;
+}
+
+.selector li:hover {
+    cursor: pointer;
+}
+
+.selector li {
+    margin: 0;
+    padding: 2%;
+    width: 35%;
+    box-sizing: border-box;
+}
+
+.active {
+    background-color: lightblue;
+    border-radius: 4px;
+    color: black;
+    border: 2px solid white;
+}
+
+.std {
+}
+
+.container {
+    width: 100vw;
+    min-height: 80vh;
+    margin: auto;
+}
