@@ -9,7 +9,6 @@ function createGraphFromGrid(grid) {
             diGraph.edges[grid.fields[i][j].id] = findEdges(grid.fields, i, j);
         }
     }
-    console.log(diGraph);
 }
 
 function createGraphFromGraph(graph) {
@@ -18,6 +17,11 @@ function createGraphFromGraph(graph) {
     graph.edges.forEach((edge) => {
         diGraph.edges[edge.from].push(edge.to);
     });
+}
+
+function resetDiGraph() {
+    diGraph.edges = [];
+    diGraph.vertices = [];
 }
 
 function findEdges(grid, i, j) {
@@ -36,5 +40,6 @@ function getDigraph() {
 module.exports = {
     createGraphFromGrid,
     createGraphFromGraph,
+    resetDiGraph,
     getDigraph,
 };
