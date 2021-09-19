@@ -83,7 +83,19 @@ function toCoord(point, dimensions) {
     return [row, col];
 }
 
+function getPq() {
+    return pq.getQueue();
+}
+
+function getGraph() {
+    return graph.getDigraph();
+}
+
 module.exports = {
     startPath,
+    found,
+    manhattanDistance,
     step,
+    getPq,
+    getGraph,
 };

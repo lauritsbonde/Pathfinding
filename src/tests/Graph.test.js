@@ -1,5 +1,9 @@
 const graph = require('../Pathfinding/Graph');
 
+beforeEach(() => {
+    graph.resetDiGraph();
+});
+
 test('Creating a graph from a 5x5 grid', () => {
     const grid = { fields: [] };
     const widthAndHeight = 5;

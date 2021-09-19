@@ -206,6 +206,7 @@ const Grid = () => {
 };
 
 export default Grid;
+
 let Node = class {
     constructor(id, bg) {
         this.id = id;

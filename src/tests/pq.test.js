@@ -16,7 +16,7 @@ test('1 is inserted with distance 1', () => {
     pq.insert(1, 1);
     expect(pq.getQueue()[0]).toEqual({ id: 1, distance: 1 });
 });
-//
+
 test('Distance 1 gets to index 1', () => {
     pq.insert(4, 1);
     expect(pq.getQueue()[0]).toEqual({ id: 4, distance: 1 });
