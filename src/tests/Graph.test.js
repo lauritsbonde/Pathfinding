@@ -1,4 +1,3 @@
-const { default: Graph } = require('../Components/Graph');
 const graph = require('../Pathfinding/Graph');
 
 test('Creating a graph from a 5x5 grid', () => {
